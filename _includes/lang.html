@@ -1,0 +1,7 @@
+<nav class="language-nav">
+  {% for p in site.pages %} {% if p.language == page.language %}
+  <a href="{{ p.url | prepend: site.baseurl }}" class="nav-link">
+    {{ p.title }}
+  </a>
+  {% endif %} {% endfor %}
+</nav>
