@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About in EN
+title: About in ES
 icon: fas fa-info-circle
 order: 4
 lang: en
