@@ -10,10 +10,10 @@ lang: en
 
 languages: ["en", "pl", "es"]
 default_lang: "en"
-exclude_from_localization: ["javascript", "images", "css", "public", "sitemap", "assets", "tools"]
+exclude_from_localization:
+  ["javascript", "images", "css", "public", "sitemap", "assets", "tools"]
 
 parallel_localization: false
-url: https://polyglot.untra.io
 
 plugins:
   - jekyll-polyglot
@@ -33,7 +33,7 @@ description: >- # used by seo meta and the atom feed
 
 # Fill in the protocol & hostname for your site.
 # E.g. 'https://username.github.io', note that it does not end with a '/'.
-url: ""
+url: "https://bondiaengandia.github.io"
 
 github:
   username: bondiaengandia # change to your GitHub username
@@ -160,7 +160,7 @@ pwa:
 paginate: 10
 
 # The base URL of your site
-baseurl: ""
+baseurl: "/bondiaengandia"
 
 # ------------ The following options are not recommended to be modified ------------------
 
@@ -216,15 +216,27 @@ compress_html:
     envs: [development]
 
 exclude:
-  - "*.gem"
-  - "*.gemspec"
   - docs
   - tools
   - README.md
   - LICENSE
   - purgecss.js
-  - "*.config.js"
-  - "package*.json"
+  - package.json
+  - package-lock.json
+  - yarn.lock
+  - pnpm-lock.yaml
+  - tailwind.config.js
+  - postcss.config.js
+  - .sass-cache
+  - .jekyll-cache
+  - gemfiles
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
 
 jekyll-archives:
   enabled: [categories, tags]
