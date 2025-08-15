@@ -26,7 +26,7 @@ timezone:
 
 title: Bondia en Gandia # the main title
 
-tagline: A text-focused Jekyll theme # it will display as the subtitle
+tagline: 
   es: "tagline in spanish"
   en: "tagline in english"
   pl: "tagline in polish"
