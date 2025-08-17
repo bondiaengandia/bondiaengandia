@@ -3,7 +3,6 @@ layout: page
 title: About in EN
 icon: fas fa-info-circle
 order: 4
-lang: en
 permalink: about/
 ---
 
