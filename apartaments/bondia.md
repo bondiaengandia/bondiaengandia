@@ -2,6 +2,7 @@
 title: 'Apartament Bon Dia'
 subtitle: "centrum tetniace zyciem"
 lang: pl 
+layout: default
 author:
   - bondiaengandia 
 categories: [apartamenty]
